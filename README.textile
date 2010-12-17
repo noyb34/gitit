@@ -1,0 +1,24 @@
+A small script that git init the current directory, then pushes your 'initial commit' to your custom git server
+
+h2. Usage:
+
+bc.  gitit
+
+h2. Install:
+
+# mv the .gitit-config file to your home directory
+# Customize the .gitit-config file:
+
+bc.. user='git' # The SSH user (e.g. 'git')
+host='127.0.0.1' # THE SSH host
+port='22' # THE SSH port
+# The path to your repositories. 
+# (Warning: No leading or trailing forward slashes)
+path='home/git'
+
+
+
+h2. TODO:
+
+* Error Handling
+* Add a flag for specifing a directory path

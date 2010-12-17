@@ -1,0 +1,4 @@
+user='git' # The SSH user (e.g. 'git')
+host='127.0.0.1' # THE SSH host
+port='22' # THE SSH port
+path='home/git' # The path to your repositories. (Warning: No leading or trailing forward slashes)
