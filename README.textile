@@ -4,7 +4,7 @@ h2. Usage:
 
 bc.  gitit
 
-h2. Install:
+h2. Install: 
 
 # mv the .gitit-config file to your home directory
 # Customize the .gitit-config file:
